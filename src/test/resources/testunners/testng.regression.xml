@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium TestNG Sessions">
+  <test name="My TestNG Practice Test"  verbose="2">
+  
+    <classes>
+      <class name="TestNGSessions.DependsOnMethods"/>
+      <class name="TestNGSessions.ExpectedExceptionConcept"/>
+      <class name="TestNGSessions.LoginTest"/>
+    </classes>
+    
+  </test>
+</suite> 
